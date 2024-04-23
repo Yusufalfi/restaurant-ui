@@ -2,7 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;100;200;300;500;600;700;800;900&display=swap"); */
+
+section.hero {
+  @apply grid;
+  grid-template-columns: .4fr .6fr;
+
+}
+
+.review {
+  @apply  bg-white bg-opacity-35;
+  /* height: 100px; */
+}
+
+.offer {
+  border-radius: 200px 200px 200px 15px;
+}
+
+input[type="email"]:disabled,
+input[type="password"]:disabled,
+input[type="text"]:disabled {
+  @apply bg-gray-300 cursor-not-allowed
+}
+button[type="submit"]:disabled, .submit:disabled {
+  @apply border-0 bg-primary text-white
+}
+
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -30,4 +56,4 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
+} */
