@@ -5,7 +5,7 @@ import HomeMenu from "@/components/layouts/HomeMenu";
 
 
 
-export default function Home() {
+export default function Page() {
   return (
     <>
       <Hero />
