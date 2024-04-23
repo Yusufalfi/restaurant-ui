@@ -6,7 +6,7 @@ import React, { useState } from 'react'
 // import {signIn} from "next-auth/react"
 
 
-const Page = () => {
+const Login = () => {
 
 
  const [email, setEmail] = useState("");
@@ -98,4 +98,4 @@ const Page = () => {
   )
 }
 
-export default Page
+export default Login
