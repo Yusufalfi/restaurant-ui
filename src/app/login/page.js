@@ -3,8 +3,6 @@
 import Image from 'next/image'
 import Link from 'next/link';
 import React, { useState } from 'react'
-// import {signIn} from "next-auth/react"
-
 
 export default function Page() {
 
@@ -12,13 +10,8 @@ export default function Page() {
  const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [loginInProgress, setLoginInProgress] = useState("");
-
-    const handleFormSubmit = async (e) => {
-
-    
+    const handleFormSubmit = async (e) => {    
   }
-
-
 
   return (
     <div className="p-4 my-5 flex items-center justify-center">
