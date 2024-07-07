@@ -1,10 +1,10 @@
 
-// import ScreenWindow from './ScreenWindow'
+import ScreenWindow from './ScreenWindow'
 import dynamic from "next/dynamic";
 
 
 
-const ScreenWindow = dynamic(() => import("./ScreenWindow"), { ssr: false })
+// const ScreenWindow = dynamic(() => import("./ScreenWindow"), { ssr: false })
 
 
 

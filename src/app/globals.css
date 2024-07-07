@@ -44,6 +44,21 @@ button[type="submit"]:disabled, .submit:disabled {
 
 }
 
+.image-container {
+
+  width: 40%;
+  height: 50vh;
+
+
+}
+
+.image-banner {
+  object-fit: contain;
+  width: 100% !important;
+  position: relative !important;
+  /* height: unset !important; */
+}
+
 
 /* css modal *//* css modal */
 
