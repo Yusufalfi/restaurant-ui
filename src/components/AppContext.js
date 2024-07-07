@@ -1,14 +1,14 @@
-'use client'
+// 'use client'
 
-import { SessionProvider } from 'next-auth/react'
-import React from 'react'
+// // import { SessionProvider } from 'next-auth/react'
+// import React from 'react'
 
-const AppContext = ({children}) => {
-  return (
-    <SessionProvider>
-        {children}
-    </SessionProvider>
-  )
-}
+// const AppContext = ({children}) => {
+//   return (
+//     <SessionProvider>
+//         {children}
+//     </SessionProvider>
+//   )
+// }
 
-export default AppContext
+// export default AppContext

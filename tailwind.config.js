@@ -13,6 +13,9 @@ module.exports = {
       second: '#febd01',
      },
      backgroundOpacity: ['active'],
+     boxShadow: {
+        '3xl': '0 15px 60px -15px rgba(0, 0, 0, 0.3)',
+      }
     },
   },
   plugins: [],

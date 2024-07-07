@@ -8,7 +8,6 @@ import Link from 'next/link'
 const link = [
     {id: 1, title: "Home", url: "/"},
     {id: 2, title: "Menu", url: "/menu"},
-    {id: 1, title: "Working Hours", url: "/"},
     {id: 1, title: "Contact", url: "/"},
     
 ]

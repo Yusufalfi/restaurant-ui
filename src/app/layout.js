@@ -22,11 +22,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={fira_Code.className}>
       <main className="">
-      <AppContext>
+      {/* <AppContext> */}
           <Headers />
           {children}
         <Footer />
-      </AppContext>      
+      {/* </AppContext>       */}
       </main>
       </body>
     </html>
