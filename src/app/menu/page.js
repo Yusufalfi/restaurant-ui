@@ -11,21 +11,27 @@ const page = () => {
 
   return (
     <section className='menu '>
-      <div className="banner-section bg-[#faf0d9] h-auto">
+      <div className="banner-section bg-[#faf0d9]">
         <div className="container mx-auto px-5">
-          <div className="flex flex-col lg:flex-row gap-2  py-6">
-            <div className="flex-1 flex flex-col gap-2 text-black font-bold">
-              <h1 className="text-3xl uppercase p-4 md:p-10  xl:text-4xl mt-5">
-                  Enjoy The Best <br />Choice Menu 
-              </h1>
+        {/* flex flex-col md:flex-row justify-between */}
+          <div className=" flex justify-between">
+    
+            <div className=" mt-10 text-black font-bold">
+              <h1 className=" flex items-center justify-center text-md uppercase md:mt-10 xl:text-4xl lg:mt-20 mb-5">Enjoy The Best Choice Menu </h1>
+              {/* <button className="bg-red-500 text-white py-3 px-9 rounded-md">Order Now</button> */}
             </div>
 
-            <div className="mt-2 mb-3">
+            <div className="flex-2  mt-10 mb-3">
               <Image
                 src='/offerProduct.png'
-                alt=""
-                width={550} height={500}
-                className=""
+                alt="image-hero"
+                width={300}
+                height={150}
+                // className='border border-red-500'
+                sizes="(max-width: 768px) 100vw, (min-width: 768px) 35vw"
+                layout="responsive"
+                // objectFit="cover"
+              
               />
             </div>
           </div>
@@ -37,7 +43,6 @@ const page = () => {
         <div className="container mx-auto px5">
             {/* list menu */}
             <ListMenu title='Burger' />
-            {/* <ListMenu title='Chicken' /> */}
         </div>
       </div>
     </section>

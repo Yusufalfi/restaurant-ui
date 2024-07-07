@@ -23,23 +23,24 @@ const Hero = () => {
  return (
   <section className="bg-second">
     <div className="container mx-auto px-5">
-      <div className=" flex flex-col lg:flex-row">
+    {/* flex flex-col lg:flex-row */}
+      <div className=" flex flex-col md:flex-row">
       {/* TEXT CONTAINER */}
-      <div className="flex-1 flex items-center justify-center flex-col gap-8 text-white font-bold">
+      <div className="flex items-center justify-center flex-col gap-8 text-white font-bold">
         <h1 className="text-4xl  uppercase p-4 md:p-10  xl:text-7xl">
           {data[currentSlide].title}
         </h1>
-        <button className="bg-red-500 text-white py-3 px-9 rounded-md">Order Now</button>
+        <button className="bg-red-500 mb-5 text-white py-3 px-9 rounded-md">Order Now</button>
       </div>
       {/* IMAGE CONTAINER */}
-      <div className="flex-1 relative mt-2 mb-3">
+      <div className="flex mt-2 mb-10">
         <Image
           src={data[currentSlide].image}
           alt="image-hero"
+          // width={350}
           layout="responsive"
           objectFit="cover"
-          // width={500} height={300}
-          // className=""
+        
         />
       </div>
     </div>
