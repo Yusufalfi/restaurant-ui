@@ -53,9 +53,9 @@ const ScreenWindow = () => {
               return (
                 <SwiperSlide key={index} className=''>
                 {/* div className=" border border-cyan-300 grid gap-4 md:grid-cols-3 xl:grid-cols-4 pt-20 pb-10 lg:pt-20 lg:pb-15 mt-5" > */}
-                   <div className="pt-20 pb-10 lg:pt-20 lg:pb-15 mt-2 md:mt-3 lg:mt-14 " >   
+                   <div className="pt-20 pb-10 lg:pt-20 lg:pb-15 mt-5 md:mt-3 lg:mt-14 " >   
                     <div className="p-6 lg:mx-3 bg-white rounded-xl duration-500 hover:scale-105 hover:shadow-md">
-                      <Image src={item.image} alt='pizza' className='mx-auto mt-[-50%] rounded-full py-3 w-[40vh] md:w-full lg:w-full'  />
+                      <Image src={item.image} alt='pizza' className='mx-auto mt-[-40%] rounded-full py-3 w-[40vh] md:w-full lg:w-full'  />
                         <h4 className='font-semibold my-3 text-xl'>{item.name}</h4>
                         <div className="flex justify-between mt-2">
                           <p className='font-bold text-xl'>{item.price}</p>
