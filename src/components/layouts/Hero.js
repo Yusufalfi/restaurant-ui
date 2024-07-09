@@ -25,7 +25,7 @@ const Hero = () => {
     <div className="container mx-auto">
       <div className="flex justify-between">
         <div className=" m-5 mt-10 font-bold text-white">
-          <h1 className=" flex items-center justify-center  uppercase mt-5 md:mt-10 lg:text-5xl lg:mt-20 mb-5">
+          <h1 className=" flex items-center justify-center text-xl  uppercase mt-5 md:mt-10 lg:text-5xl lg:mt-20 mb-5">
           {data[currentSlide].title}
           </h1>
           <button className="bg-red-500 text-white text-sm py-2 px-3 md:py-3 rounded-md">Order Now</button>
