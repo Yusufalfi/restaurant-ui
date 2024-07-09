@@ -30,7 +30,7 @@ export const data = [
   {
     id: 1,
     title: "Start your day With Good Food Good Mood",
-    image: imgHero1,
+    image: imgHero3,
   },
   {
     id: 2,
@@ -40,7 +40,7 @@ export const data = [
   {
     id: 3,
     title: "The best pizza to share with your family",
-    image: imgHero3,
+    image: imgHero1,
   },
 ];
 
