@@ -29,7 +29,7 @@ import kebab from '../public/kebab.png'
 export const data = [
   {
     id: 1,
-    title: "Start your day With Good Food Good Mood.,",
+    title: "Start your day With Good Food Good Mood",
     image: imgHero1,
   },
   {
@@ -39,7 +39,7 @@ export const data = [
   },
   {
     id: 3,
-    title: "the best pizza to share with your family",
+    title: "The best pizza to share with your family",
     image: imgHero3,
   },
 ];
