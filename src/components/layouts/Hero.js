@@ -21,29 +21,27 @@ const Hero = () => {
   }, []);
 
  return (
-  <section className="bg-second">
-    <div className="container mx-auto px-5">
-    {/* flex flex-col lg:flex-row */}
-      <div className=" flex flex-col md:flex-row">
-      {/* TEXT CONTAINER */}
-      <div className="flex items-center justify-center flex-col gap-8 text-white font-bold">
-        <h1 className="text-4xl  uppercase p-4 md:p-10  xl:text-7xl">
+  <section className="bg-second  xl:h-[60vh]">
+    <div className="container mx-auto">
+      <div className="flex justify-between">
+        <div className=" m-5 mt-10 font-bold text-white">
+          <h1 className=" flex items-center justify-center  uppercase mt-5 md:mt-10 lg:text-5xl lg:mt-20 mb-5">
           {data[currentSlide].title}
-        </h1>
-        <button className="bg-red-500 mb-5 text-white py-3 px-9 rounded-md">Order Now</button>
+          </h1>
+          <button className="bg-red-500 text-white text-sm py-2 px-3 md:py-3 rounded-md">Order Now</button>
+        </div>
+
+        <div className="flex mt-3 mb-3">
+          <Image
+            src={data[currentSlide].image}
+            alt="image-hero"
+            width={200}
+            height={100}
+            sizes="(max-width: 768px) 100vw, (min-width: 768px) 27vw"
+            layout="responsive"    
+          />
+        </div>
       </div>
-      {/* IMAGE CONTAINER */}
-      <div className="flex mt-2 mb-10">
-        <Image
-          src={data[currentSlide].image}
-          alt="image-hero"
-          // width={350}
-          layout="responsive"
-          objectFit="cover"
-        
-        />
-      </div>
-    </div>
     </div>
   </section>
   );
