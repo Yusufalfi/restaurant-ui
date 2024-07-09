@@ -24,7 +24,7 @@ const Hero = () => {
   <section className="bg-second  xl:h-[60vh]">
     <div className="container mx-auto">
       <div className="flex justify-between">
-        <div className=" m-5 mt-8 font-bold text-white">
+        <div className=" m-5 mt-7 font-bold text-white">
           <h1 className=" flex items-center justify-center text-xl  uppercase mt-5 md:mt-10 lg:text-5xl lg:mt-20 mb-5">
           {data[currentSlide].title}
           </h1>
@@ -36,8 +36,8 @@ const Hero = () => {
             src={data[currentSlide].image}
             alt="image-hero"
             width={200}
-            height={100}
-            sizes="(max-width: 768px) 100vw, (min-width: 768px) 27vw"
+            height={200}
+            sizes="(max-width: 768px) 80vw, (min-width: 768px) 27vw"
             layout="responsive"    
           />
         </div>
