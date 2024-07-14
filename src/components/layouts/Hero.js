@@ -33,7 +33,7 @@ const Hero = () => {
         <h2 className="text-[26px] md:text-[20px] lg:text-[50px] font-bold leading-[1.2]">{data[currentSlide].title}</h2>
         
         <div className="bg-primary text-white text-[14px] md:text-[16px] p-2 px-4 rounded-lg inline-block cursor-pointer hover:bg-black">
-          Shop Now
+          Order Now
         </div>
       </div>
     </div>
