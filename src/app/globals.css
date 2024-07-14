@@ -4,20 +4,8 @@
 
 /* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;100;200;300;500;600;700;800;900&display=swap"); */
 
-section.hero {
-  @apply grid;
-  grid-template-columns: .4fr .6fr;
 
-}
 
-.review {
-  @apply  bg-white bg-opacity-35;
-  /* height: 100px; */
-}
-
-.offer {
-  border-radius: 200px 200px 200px 15px;
-}
 
 input[type="email"]:disabled,
 input[type="password"]:disabled,
@@ -29,14 +17,17 @@ button[type="submit"]:disabled, .submit:disabled {
 }
 
 
-.swiper-pagination-bullet {
+.swiper-pagination {
+  position: relative !important;
+  margin-top: 2px;
+}
 
+.swiper-pagination-bullet {
   background-color: #ddd;
   border: 1px solid #ccc;
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  
 }
 
 .swiper-pagination-bullet-active {
@@ -56,76 +47,9 @@ button[type="submit"]:disabled, .submit:disabled {
   object-fit: contain;
   width: 100% !important;
   position: relative !important;
-  /* height: unset !important; */
+  
 }
 
-
-/* css modal *//* css modal */
-
-/* .modal-wrapper {
-  position: absolute;
-  margin-top: -500px;
-  width: 90px;
-  height: 600px;
+.offer {
+  border-radius: 200px 200px 200px 15px;
 }
-
-.modal {
-  background: blue;
-  margin-top: -500%;
-   height: 100%;
-  width: 100%;
-  border-radius: 15px;
-  padding: 15px;
-} */
-
-/* .modal-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.modal-body {
-  padding-top: 10px;
-}
-
-.modal-header {
-  display: flex;
-  justify-content: flex-end;
-  font-size: 25px;
-} */
-
-/* :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-} */

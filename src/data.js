@@ -1,8 +1,8 @@
 
 
-import imgHero1 from '../public/p2.png'
-import imgHero2 from '../public/p1.png'
-import imgHero3 from '../public/p10.png'
+// import imgHero1 from '../public/p2.png'
+// import imgHero2 from '../public/p1.png'
+// import imgHero3 from '../public/p10.png'
 
 import BigBurger from '../public/assets/burger/p2.png';
 import TripleBurger from '../public/assets/burger/p9.png';
@@ -23,6 +23,12 @@ import mieTelor from '../public/mieTelor.png'
 import kebab from '../public/kebab.png'
 
 
+// import imgHero2 from '../public/banner-1.jpg'
+import imgHero2 from '../public/banners.png'
+import imgHero1 from '../public/banner-2.jpg'
+
+
+
 
 
 
@@ -32,11 +38,11 @@ export const data = [
     title: "Start your day With Good Food Good Mood",
     image: imgHero2,
   },
-  {
-    id: 2,
-    title: "We deliver your order with fast",
-    image: imgHero3,
-  },
+  // {
+  //   id: 2,
+  //   title: "We deliver your order with fast",
+  //   image: imgHero3,
+  // },
   {
     id: 3,
     title: "The best pizza to share with your family",
