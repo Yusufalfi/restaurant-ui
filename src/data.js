@@ -25,7 +25,8 @@ import kebab from '../public/kebab.png'
 
 // import imgHero2 from '../public/banner-1.jpg'
 import imgHero2 from '../public/banners.png'
-import imgHero1 from '../public/banner-2.jpg'
+import imgHero1 from '../public/banners2.png'
+import imgHero3 from '../public/banners3.png'
 
 
 
@@ -38,11 +39,11 @@ export const data = [
     title: "Start your day With Good Food Good Mood",
     image: imgHero2,
   },
-  // {
-  //   id: 2,
-  //   title: "We deliver your order with fast",
-  //   image: imgHero3,
-  // },
+  {
+    id: 2,
+    title: "We deliver your order with fast",
+    image: imgHero3,
+  },
   {
     id: 3,
     title: "The best pizza to share with your family",
