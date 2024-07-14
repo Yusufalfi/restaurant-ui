@@ -30,12 +30,12 @@ export const data = [
   {
     id: 1,
     title: "Start your day With Good Food Good Mood",
-    image: imgHero3,
+    image: imgHero2,
   },
   {
     id: 2,
     title: "We deliver your order with fast",
-    image: imgHero2,
+    image: imgHero3,
   },
   {
     id: 3,

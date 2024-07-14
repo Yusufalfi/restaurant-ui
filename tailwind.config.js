@@ -15,6 +15,9 @@ module.exports = {
      backgroundOpacity: ['active'],
      boxShadow: {
         '3xl': '0 15px 60px -15px rgba(0, 0, 0, 0.3)',
+      },
+      transparent: {
+        0: "transparent"
       }
     },
   },
