@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     // grid grid-cols-3
     <div className=" h-screen flex flex-col md:flex-row md:justify-between bg-second sm:h-[70vh] md:h-[50vh] lg:h-[60vh] rounded-lg">
-      {/* TEXT CONTAINER */}
+  
       <div className="flex-1 flex flex-col justify-center items-center text-center gap-8 p-6">
         <h1 className="text-white text-4xl font-bold xl:text-6xl">Special Offer</h1>
         <p className="text-white text-2xl xl:text-4xl font-bold">
@@ -18,7 +18,7 @@ const Banner = () => {
         <p className='font-bold text-2xl text-white ml-4 mt-2'>$12.99</p>
        </div>
       </div>
-      {/* IMAGE CONTAINER */}
+      
       <div className="flex-1 w-full relative">
         <Image src="/paket2.png" alt="ooferProduct" fill className="object-contain" />
       </div>

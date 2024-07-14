@@ -13,7 +13,7 @@ export default function Page() {
     <>
       <Hero />
        <div className='bg-[#f8f4e9]' >
-        <div className="container mx-auto">
+        <div className="container mx-auto px-2">
           <OurMenu />
           <Banner />
           <Service />

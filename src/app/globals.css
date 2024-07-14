@@ -6,17 +6,6 @@
 
 
 
-
-input[type="email"]:disabled,
-input[type="password"]:disabled,
-input[type="text"]:disabled {
-  @apply bg-gray-300 cursor-not-allowed
-}
-button[type="submit"]:disabled, .submit:disabled {
-  @apply border-0 bg-primary text-white
-}
-
-
 .swiper-pagination {
   position: relative !important;
   margin-top: 2px;
@@ -47,7 +36,7 @@ button[type="submit"]:disabled, .submit:disabled {
   object-fit: contain;
   width: 100% !important;
   position: relative !important;
-  
+
 }
 
 .offer {
